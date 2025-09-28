@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Obelisk',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withobelisk' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/obeliskhq' }],
 			sidebar: [
 				{
 					label: 'Guides',
