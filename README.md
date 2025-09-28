@@ -1,48 +1,49 @@
-# Obelisk
+# Starlight Starter Kit: Basics
 
-Welcome to the ObeliskGitHub organization! This repository serves as our central hub for community engagement, feature requests, and organizational discussions.
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-## 🏢 About Obelisk
+```
+npm create astro@latest -- --template starlight
+```
 
-Obelisk is committed to fostering an open and collaborative development environment. Our GitHub organization reflects our values of transparency, and customer-centric innovation.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 💬 Community & Support
+## 🚀 Project Structure
 
-### 📣 Discussions
+Inside of your Astro + Starlight project, you'll see the following folders and files:
 
-Have questions, ideas, or need support? Join our community discussions:
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   └── docs/
+│   └── content.config.ts
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
+```
 
-**[👉 Join our GitHub Discussions](https://github.com/orgs/obeliskhq/discussions)**
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
-Our discussions are organized into categories:
-- **📣 Announcements** - Stay updated with our latest news and releases
-- **💡 Ideas** - Share your innovative ideas and suggestions
-- **🙏 Q&A** - Get help and ask questions about our products and services
+Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
-### 🚀 Feature Requests
+Static assets, like favicons, can be placed in the `public/` directory.
 
-We value your input! If you have feature requests or suggestions for our products:
+## 🧞 Commands
 
-1. Visit our [Discussions](https://github.com/orgs/obeliskhq/discussions) page
-2. Use the "Bugs and Issues" category for reporting issues
-2. Use the "Ideas" category for new feature suggestions
-3. Use the "Q&A" category for questions about existing features
+All commands are run from the root of the project, from a terminal:
 
-## 🤝 Contributing
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-We welcome contributions from our community! Whether you're:
-- Reporting bugs
-- Suggesting new features
-- Improving documentation
-- Sharing feedback
+## 👀 Want to learn more?
 
-All contributions help us build better products for everyone.
-
-## 📞 Contact
-
-- **GitHub Discussions**: [github.com/orgs/obeliskhq/discussions](https://github.com/orgs/obeliskhq/discussions)
-- **Organization**: [@obeliskhq](https://github.com/obeliskhq)
-
----
-
-*This repository is part of the Obelisk GitHub organization and serves as our community engagement hub.*
+Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
